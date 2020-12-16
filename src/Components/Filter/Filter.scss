@@ -1,0 +1,21 @@
+.filter {
+  padding: 20px 5px;
+  h5 {
+    font-size: 15px;
+  }
+  .filters__options {
+    display: flex;
+    flex-direction: column;
+    .option {
+      display: flex;
+      align-items: center;
+      width: auto;
+      text-align: left;
+      cursor: pointer;
+      label {
+        margin-top: 5px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
